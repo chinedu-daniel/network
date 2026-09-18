@@ -1,7 +1,7 @@
 const http = require("http");
 
 const request = http.get("http://localhost:3000", (res) => {
-	let data = "";
+	let data = "chinedu";
 
 	res.on("data", (chunk) => {
 		data += chunk;
